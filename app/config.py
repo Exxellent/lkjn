@@ -2,7 +2,9 @@ import os
 
 SECRET_KEY = 'Renat12345'
 
-SQLALCHEMY_DATABASE_URI = f'mysql+mysqlconnector://std_1682_exam:Renat12345@std-mysql.ist.mospolytech.ru/std_1682_exam'
+
+SQLALCHEMY_DATABASE_URI = f'mysql+mysqlconnector://user1:Qwerty1234@rc1b-637htu11i17n18re.mdb.yandexcloud.net/db1'
+
 SQLALCHEMY_TRACK_MODIFICATIONS = False
 SQLALCHEMY_ECHO = True
 
