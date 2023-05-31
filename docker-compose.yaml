@@ -10,6 +10,8 @@ services:
       - default
     container_name: 
       hello_py 
+    restart:
+      always
 networks:
   default:
     driver: bridge
